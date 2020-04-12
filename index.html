@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codenames.js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Nuescht</h1>
+
+    <main class="page-wrapper">
+
+      <div id="app" class="row">
+        <div class="col-xs-12 col-sm-8">
+
+          <div id="dice">
+            <button class="die" @click="roll()">{{number}}</button>
+            <button class="die" @click="roll()">{{number}}</button>
+            <button class="die" @click="roll()">{{number}}</button>
+            <button class="die" @click="roll()">{{number}}</button>
+            <button class="die" @click="roll()">{{number}}</button>
+            <button class="die" @click="roll()">{{number}}</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
